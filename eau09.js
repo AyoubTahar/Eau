@@ -3,7 +3,7 @@ let valeurMax = process.argv[3];
 let minMax =''
 
 function Verifchiffre (valeur){
-    if(valeur*1 <= 0 || valeur*1 ){
+    if(valeur*1 <= 0 || valeur*1 >= 0){
         return true
     }
     else{

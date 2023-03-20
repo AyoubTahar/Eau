@@ -11,7 +11,7 @@ function RecupString(arg) {
   }
   
 function Verifchiffre (arg){
-    if(arg*1 <= 0 || arg*1 ){
+    if(arg*1 <= 0 || arg*1 >= 0 ){
         return true
     }
     else{
